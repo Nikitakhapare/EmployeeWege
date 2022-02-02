@@ -7,10 +7,10 @@ public class EmpWegeSwitch {
 	public static final int IsPartTime=0;
         public static void main(String[] args)
        {
-		//variables
+	//variables
     	int empHour=0;
 	int empWege=0;
-		//computation
+	//computation
 	double empCheck= Math.floor(Math.random()*10)%3;
 	switch ((int) empCheck) 
         {
@@ -22,8 +22,8 @@ public class EmpWegeSwitch {
 		                    
         }
 			
-		empWege=empHour*RatePerHour;
-		System.out.println("Employee Wege= "+empWege);
+	   empWege=empHour*RatePerHour;
+           System.out.println("Employee Wege= "+empWege);
 
 
 	}
