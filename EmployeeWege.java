@@ -2,7 +2,7 @@ package EmployeeWeag;
 
 public class EmployeeWege {
 	public static void main(String[] args) {
-		//constant
+		
 		int isFullTime=1;
 		int ratePerHour=20;
 		int isPartTime=0;
